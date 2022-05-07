@@ -4,8 +4,6 @@ import json
 import logging
 from pathlib import Path
 import rich_click as click
-from rich import print_json
-from rich.console import Console
 
 # -------------------------
 # Jinja2
