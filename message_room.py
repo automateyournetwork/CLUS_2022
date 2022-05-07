@@ -100,11 +100,13 @@ class GetJson():
 @click.option('--url',
     prompt='The URL to your session',
     help=('A URL for the speakers'),
-    required=True)
+    required=True,
+    envvar="URL")
 @click.option('--url_label',
     prompt='The Label on the URL to your session',
     help=('A Label for the URL for the speakers'),
-    required=True)    
+    required=True,
+    envvar="URL_LABEL"))    
 def cli(roomid,
         token,
         title,
