@@ -1,0 +1,132 @@
+{
+  "roomId": "{{ roomid }}",
+  "markdown": "Welcome to Cisco Live 2022",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.0",
+        "body": [
+            {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://www.ciscolive.com/c/dam/r/ciscolive/global-event/images/2022/cl22-opengraph-allin.png"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Welcome to Cisco Live US 2022",
+                            "weight": "lighter",
+                            "color": "accent"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "{{ title | replace (","," ") }}",
+                            "horizontalAlignment": "Center",
+                            "wrap": true,
+                            "color": "Light",
+                            "size": "Large",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 35,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Time",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Location",
+                            "weight": "Lighter",
+                            "color": "Light",
+                            "spacing": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 65,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ time }}",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ location | replace (","," ") }}",
+                            "color": "Light",
+                            "weight": "Lighter",
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Padding",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "{{ description | replace (","," ") }}",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Speakers:"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ speakers | replace (","," ") }}",
+                            "horizontalAlignment": "Left",
+                            "size": "Medium"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Left",
+                    "spacing": "Small"
+                    }                           
+            ]
+            }              
+        ],
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "url": "{{ url }}",
+              "title": "{{ url_label }}"
+            }
+          ]        
+        }
+        }
+    ]
+}
