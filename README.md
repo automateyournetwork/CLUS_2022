@@ -1,5 +1,14 @@
 # CLUS_2022 Message Room - WebEx Bot that generates adaptive cards for your session
 
+## Examples
+Running the Bot (Questions)
+
+![Run the bot](readme/Example001.png)
+
+Output
+
+![Run the bot](readme/Example002.png)
+
 ## Getting Started with CLUS_2022 WebEx Message Room Bot
 As a first time speaker I thought using WebEx to expand the interactivity and longevity of my sessions I wrote this bot. I wanted to share with other Speakers in case they wanted to use it for their sessions. 
 

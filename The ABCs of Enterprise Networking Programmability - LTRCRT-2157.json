@@ -1,0 +1,132 @@
+{
+  "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMGY3ZWJhYTAtY2UyOC0xMWVjLTgwZTUtYWIzYWViMjNhMWI2",
+  "markdown": "Welcome to Cisco Live 2022",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.0",
+        "body": [
+            {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://www.ciscolive.com/c/dam/r/ciscolive/global-event/images/2022/cl22-opengraph-allin.png"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Welcome to Cisco Live US 2022",
+                            "weight": "lighter",
+                            "color": "accent"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "The ABCs of Enterprise Networking Programmability - LTRCRT-2157",
+                            "horizontalAlignment": "Center",
+                            "wrap": true,
+                            "color": "Light",
+                            "size": "Large",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 35,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Time",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Location",
+                            "weight": "Lighter",
+                            "color": "Light",
+                            "spacing": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 65,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "1:00 PM - 5:00 PM PDT",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Luxor",
+                            "color": "Light",
+                            "weight": "Lighter",
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Padding",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "RESTful APIs  JSON  DevOps  NETCONF  Sources of Truth  the list goes on and on so many technologies but what are they and how do you put them together? DevNet Automation Bootcamps (ABCs) are here to help! In this session  participants will gain hands-on experience in a bootcamp environment. Beginning with source control using git  participants will move on to automate real-world tasks using progressively more advanced tools such as pyATS  YANG Suite  and RESTCONF/NETCONF. Change validation will also be performed to ensure the network is operating as designed. Unleash your potential and start making changes at scale without using copy and paste!",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Speakers:"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Palmer Sample Juulia Santala John Capobianco",
+                            "horizontalAlignment": "Left",
+                            "size": "Medium"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Left",
+                    "spacing": "Small"
+                    }                           
+            ]
+            }              
+        ],
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "url": "https://www.ciscolive.com/global/attend/sessions/session-catalog.html?search=ABCs#/",
+              "title": "Cisco Live Catalogue Link"
+            }
+          ]        
+        }
+        }
+    ]
+}
