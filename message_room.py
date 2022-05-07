@@ -106,7 +106,7 @@ class GetJson():
     prompt='The Label on the URL to your session',
     help=('A Label for the URL for the speakers'),
     required=True,
-    envvar="URL_LABEL"))    
+    envvar="URL_LABEL")  
 def cli(roomid,
         token,
         title,
