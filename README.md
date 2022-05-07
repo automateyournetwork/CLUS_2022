@@ -87,7 +87,8 @@ C:\>message_room\Scripts\activate
 #### Run the bot as an interactive session
 ```console
 
-(message_room)$ python3 message_room.py
+(message_room)$ cd CLUS_2022
+(message_room)~/CLUS_2022$ python3 message_room.py
 
 ```
 #### The form questions:
