@@ -3,8 +3,6 @@ import sys
 import json
 import logging
 from pathlib import Path
-from pyats.topology import Testbed, Device
-from genie import testbed
 import rich_click as click
 from rich import print_json
 from rich.console import Console
