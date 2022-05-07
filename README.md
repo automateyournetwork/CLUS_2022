@@ -58,6 +58,12 @@ $ source message_room/bin/activate
 (message_room)$
 
 ```
+#### Install the requests library
+```console
+
+(message_room)$pip install requests
+
+```
 #### Git Clone the Respository
 ```console
 
@@ -77,6 +83,13 @@ C:\>message_room\Scripts\activate
 (message_room) C:\>
 
 ```
+#### Install the requests library
+```console
+
+(message_room)$pip install requests
+
+```
+
 #### Git Clone the Respository
 ```console
 
