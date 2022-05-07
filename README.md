@@ -58,10 +58,10 @@ $ source message_room/bin/activate
 (message_room)$
 
 ```
-#### Install the requests library
+#### Install the trequirements
 ```console
 
-(message_room)$pip install requests
+(message_room)$pip install -r requirements.txt
 
 ```
 #### Git Clone the Respository
@@ -83,10 +83,10 @@ C:\>message_room\Scripts\activate
 (message_room) C:\>
 
 ```
-#### Install the requests library
+#### Install the requirements
 ```console
 
-(message_room)$pip install requests
+(message_room)$pip install -r requirements.txt
 
 ```
 
