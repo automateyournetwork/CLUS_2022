@@ -1,5 +1,4 @@
 import requests
-from requests_toolbelt.multipart.encoder import MultipartEncoder
 import sys
 import json
 import logging
