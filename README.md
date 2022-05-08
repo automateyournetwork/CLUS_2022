@@ -19,7 +19,7 @@ In WebEx create and customize a room for your session
 
 ### Get a 24-hour token and Room ID
 Visit the following developer.webex.com URL to get the room ID:
-[List_Rooms](https://developer.webex.com/docs/api/v1/rooms/list
+[List_Rooms](https://developer.webex.com/docs/api/v1/rooms/list-rooms)
 
 #### Get a 24-hour token
 Click the copy button to obtain a 24-hour token. This token will be used to access the room. Keep it safe and secure. I recommending using environment variables to store the token so you do not have to input it everytime you run the bot.
