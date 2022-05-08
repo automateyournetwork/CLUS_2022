@@ -67,16 +67,16 @@ $ source message_room/bin/activate
 (message_room)$
 
 ```
-#### Install the trequirements
-```console
-
-(message_room)$pip install -r requirements.txt
-
-```
 #### Git Clone the Respository
 ```console
 
 (message_room)$ git clone https://github.com/automateyournetwork/CLUS_2022
+
+```
+#### Install the requirements
+```console
+
+(message_room)$pip install -r requirements.txt
 
 ```
 ### Windows
@@ -92,17 +92,18 @@ C:\>message_room\Scripts\activate
 (message_room) C:\>
 
 ```
-#### Install the requirements
-```console
-
-(message_room)$pip install -r requirements.txt
-
-```
 
 #### Git Clone the Respository
 ```console
 
 (message_room)$ git clone https://github.com/automateyournetwork/CLUS_2022
+
+```
+
+#### Install the requirements
+```console
+
+(message_room)$pip install -r requirements.txt
 
 ```
 ### Using the bot
